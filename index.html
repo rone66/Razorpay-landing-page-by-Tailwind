@@ -9,10 +9,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 <style>
-    .corefeaturesection{
+        .corefeaturesection{
             background-size:  100% 100%;
             padding-top: 12rem;
             padding-bottom:12rem;
+        }
+        .ctaSection{
+            background-size:  100% 100%;
+        }
+        .companyList{
+            animation: 10s infinite linear moveImage;
+        }
+        @keyframes moveImage {
+          0%{
+            top :0;
+          }   
+          100%{
+            top: -50%;
+          }
         }
 </style>
 </head>
@@ -487,7 +501,7 @@
             <!-- card1 -->
             <div class="p-10 bg-[url(/assets/instant-settlement-bg.svg)] w-full max-h-[300px] border-[1px] rounded-md border-lightGrey cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(/assets/instant-settlement-bghover.svg)] bg-white">
                 <img src="https://razorpay.com/build/browser/static/instant-settlements.b6b6e467.svg" alt="" class="w-10 h-10 bg-blue rounded-full">
-                <h3 class="text-lg font-bold pt-4">Corporate Cards</h3>
+                <h3 class="text-xl font-bold pt-4">Corporate Cards</h3>
                 <p class="py-3 text-grey leading-normal">Settle your customer payments within 10 seconds as soon your account is activated, even during holidays.</p>
                 <div>
                     <a href="" class="font-bold text-lightBlue group-hover:text-grey transition-all duration-200 flex  items-center">Know More<img src="./assets/chevron-right (1).svg" alt=""></a>
@@ -545,54 +559,89 @@
                 <!-- card1 -->
                 <div>
                     <img src="./assets/instant-activation-icon.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >Instant Activation</h3c>
-                    <p class="  text-white opacity-80 " >Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >Instant Activation</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3" >Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
                 </div>
                 <!-- card2 -->
                 <div>
                     <img src="	https://razorpay.com/build/browser/static/easy-integration.18651e2f.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >Easy Integrations</h3c>
-                    <p class="  text-white opacity-80 " >With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >Easy Integrations</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3" >With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.</p>
                 </div>
                 <!-- card3 -->
                 <div>
                     <img src="	https://razorpay.com/build/browser/static/api-driven.207572da.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >API driven</h3c>
-                    <p class="  text-white opacity-80 " >Build your business for scale with our complete API-driven automation that requires zero manual intervention.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >API driven</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3 " >Build your business for scale with our complete API-driven automation that requires zero manual intervention.</p>
                 </div>
                 <!-- card4 -->
                 <div>
                     <img src="https://razorpay.com/build/browser/static/payment-modes.da25e039.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >100+ payment modes</h3c>
-                    <p class="  text-white opacity-80 " >Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >100+ payment modes</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3 " >Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
                 </div>
                 <!-- card5 -->
                 <div>
                     <img src="	https://razorpay.com/build/browser/static/simple-pricing.dc58cdbb.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >Simple Pricing</h3c>
-                    <p class="  text-white opacity-80 " >Our innovative payment solutions with competitive pricing make payments simpler.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >Simple Pricing</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3" >Our innovative payment solutions with competitive pricing make payments simpler.</p>
                 </div>
                 <!-- card6 -->
                 <div>
                     <img src="https://razorpay.com/build/browser/static/support.714ccbce.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >Best in Inndustry support</h3c>
-                    <p class="  text-white opacity-80 " >Always available email, phone and chat based support to help you in your every step.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >Best in Inndustry support</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3" >Always available email, phone and chat based support to help you in your every step.</p>
                 </div>
                 <!-- card7 -->
                 <div>
                     <img src="https://razorpay.com/build/browser/static/dashboard-reporting.15590378.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >Dashboard Reporting</h3c>
-                    <p class="  text-white opacity-80 " >Real-time data and insights on your Razorpay Dashboard to make informed business decisions.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >Dashboard Reporting</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3 " >Real-time data and insights on your Razorpay Dashboard to make informed business decisions.</p>
                 </div>
                 <!-- card8 -->
                 <div>
                     <img src="https://razorpay.com/build/browser/static/secure.742a33ac.svg" alt="">
-                    <h3 class="  text-white text-lg text-bold my-4 " >Secure</h3c>
-                    <p class="  text-white opacity-80 " >PCI DSS Level 1 compliant solution which removes your burden of regulatory compliance.</p>
+                    <h3 class="  text-white text-xl text-bold my-4 " >Secure</h3c>
+                    <p class="  text-white opacity-80 text-lg mt-3" >PCI DSS Level 1 compliant solution which removes your burden of regulatory compliance.</p>
                 </div>
             </div>
 
         </div>
     </section>
+
+    <!-- core feature-2 -->
+    <section class=" bg-[#f5f8fe]  relative pt-40 pb-12 -mt-[200px] -z-[100]  " >
+        <div class=" w-11/12 max-w-[1080px] mx-auto relative flex flex-col md:flex-row justify-evenly" >
+
+            <!-- left -->
+            <div class="flex flex-col justify-center w-full  md:max-w-[calc(90%-500px)] " >
+                <h3 class=" font-mullish font-bold text-4xl text-deepBlueHead " >Join the 50,00,000+ businesses using Razorpay
+                </h3>
+                <div class="w-6 h-1 bg-green my-4 mb-10"></div>
+                <p class=" font-mullish opacity-80 text-lg" >We make it easier for you to focus on building great products while  we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+                <p class=" font-mullish mt-6 opacity-80 text-lg" >Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+
+            <!-- right   -->
+            <div class=" h-[500px]  w-[500px]  relative overflow-y-hidden mx-auto" >
+
+                <div style="background:linear-gradient(180deg,#f4f8ff, #fff0) "
+                class="absolute w-full h-[150px] top-0 z-50"
+                >  </div>
+                
+                <img src="/assets/comanies.png" alt="" width="500px"
+                class="  absolute h-auto  object-cover companyList "
+                >
+
+                <div  style="background:linear-gradient(0deg,#f4f8ff, #fff0) "
+                class="absolute w-full h-[150px] bottom-0 z-50 "></div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
 </body>
 </html>
